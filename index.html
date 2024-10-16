@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<style type="text/css">
+
+		.hei-80{
+
+			  height: 80px;
+		}
+
+		.hei-800{
+
+			height: 800px;
+		}
+
+		.hei-850{
+
+			height: 850px;
+		}
+
+		.hei-600{
+
+			height: 600px;
+		}
+
+		.red{
+             
+            background: red; 
+		}
+
+		.green{
+
+			background: green;
+		}
+
+		.hei-500{
+
+			height: 500px;
+		}
+
+		.yellow{
+
+			  background: yellow;
+		}
+
+		.hei-450{
+
+			height: 450px;
+		}
+
+		.black{
+
+			background: black;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class=" col-12    d-flex"  style="  padding-top: 20px;">
+		<div class="col-1  ">
+		    <img src="img/pslogo.png" class="w-50">
+		</div>
+
+		<div class="col-1   ">
+			<div class="dropdown">
+			  <button class="btn btn-sm btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+			    игры
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a class="dropdown-item" href="#">Action</a></li>
+			    <li><a class="dropdown-item" href="#">Another action</a></li>
+			    <li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</div>
+		</div>
+
+		<div class="col-1  ">
+			<div class="dropdown">
+			  <button class="btn btn-sm btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+			    оборудование
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a class="dropdown-item" href="#">Action</a></li>
+			    <li><a class="dropdown-item" href="#">Another action</a></li>
+			    <li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</div>
+		</div>
+
+		<div class="col-1   ">
+			<div class="dropdown">
+			  <button class="btn btn-sm btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+			    новости 
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a class="dropdown-item" href="#">Action</a></li>
+			    <li><a class="dropdown-item" href="#">Another action</a></li>
+			    <li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</div>
+		</div>
+
+		<div class="col-1   ">
+			<div class="dropdown">
+			  <button class="btn btn-sm  btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+			    магазин
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a class="dropdown-item" href="#">Action</a></li>
+			    <li><a class="dropdown-item" href="#">Another action</a></li>
+			    <li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+
+	<div class=" col-12 border hei-850 black">
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/carousel_1.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel_2.png" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel_3.jpg" class="d-block w-100" alt="...">
+		    </div>
+
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</div>
+
+	<div class="  col-11  hei-600 black mx-auto d-flex">
+		<div class=" col-3  hei-500 black">
+			<img src="img/immortal.jpg" class="w-100">
+						<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="   background: white;  border: white; color: black;  margin-top: 20px;margin-left: 15px;">
+			   подробнее
+			</button>
+
+		</div>
+
+		<div class=" col-3 hei-500 black">
+			<img src="img/cod.jpg" class="w-100">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="   background: white;  border: white; color: black; margin-top: 20px;margin-left: 15px;"> 
+			   подробнее
+			</button>
+		</div>
+
+		<div class=" col-3  hei-500 black">
+			<img src="img/assassins.jpg" class="w-100">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="   background: white;  border: white; color: black;  margin-top: 20px;margin-left: 15px;">
+			  подробнее
+			</button>
+		</div>
+
+		<div class=" col-3  hei-500 black">
+			<img src="img/SM.jpg" class="w-100">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="   background: white;  border: white; color: black;  margin-top: 20px;  margin-left: 15px;">
+			  подробее
+			</button>
+		</div>
+	</div>
+
+	<div class="  col-12   hei-800 " style="  padding-top: 30px;">         
+	          <p class="fs-6 text-center"> PLAY HATS NO LIMIT</p>
+              <p class="fs-3 text-center " style="  font-weight: 500;"> Представляем PlayStation 5</p>
+              <p class="fs-6 text-center " style="  font-weight: 500;  margin-top: -20px;"> откройте новые игровые возможности,о которыя вы даже не мечтали</p>
+			<div class=" col-8   mx-auto row" style="  height: 600px; ">
+				<div class="  col-3  hei-500">
+					<img src="123.png" class="w-100">
+					<p class="d-inline-flex gap-1">
+					  <button style="  margin-top: 35px;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					    посмотреть 
+					  </button>
+					</p>
+				</div>
+				<div class="  col-3  hei-500 ">
+					<img src="ps5jo.png" style="  height: 320px;" class="w-100">
+					<p class="d-inline-flex gap-1">
+					  <button style="  margin-top: 5px;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+					    посмотреть 
+					  </button>
+					</p>
+				</div>
+				<div class="  col-3  hei-500">
+					<img src="remov.png" class="w-100">
+					<p class="d-inline-flex gap-1">
+					  <button style="  margin-top: 32px;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+					    посмотреть 
+					  </button>
+					</p>
+				</div>
+				<div class="  col-3  hei-500">
+					<img src="rem.webp" style=" margin-top: 50px;" class="w-100">
+					<p class="d-inline-flex gap-1">
+					  <button style="  margin-top: 120px;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+					  посмотреть 
+					  </button>
+				   </p>
+				</div>
+
+				<div class="collapse" id="collapseExample">
+					  <div class="card card-body">
+					    <p class="fs-6" style="  font-weight: 500; ">Консоль PlayStation 5</p>
+					    окунись в новое поколение невероятных игр PlayStation 5
+					  </div>
+				</div>
+				<div class="collapse" id="collapseExample2">
+					<div class="card card-body">
+						<p class="fs-5" style="  font-weight: 500;">Беспроводной Контроллер Dualseanse</p>
+						ощутите новое погружение в игру при помощи контроллера,предлагаюшего тактильную отдачу,адаптивные триггеры и встроеный микрофон
+					</div>			
+				</div>
+				<div class="collapse" id="collapseExample3">
+					<div class="card card-body">
+						 <p class="fs-5" style="  font-weight: 500;">Беспроводная гарнитура PULSE 3D </p>
+					    наслаждайтесь новым безупречным качеством беспроводной связи благодаря гарнитуре
+					</div>			
+				</div>
+				<div class="collapse" id="collapseExample4">
+					<div class="card card-body">
+						 <p class="fs-5" style="  font-weight: 500;">ПДУ Мультимедиа</p>
+						 удобное управлением фильмами   
+					</div>			
+				</div>
+
+
+			</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title fs-5" id="exampleModalLabel">immortals fenyx rising</h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+            
+              <p class="fs-5"style="font-weight: 600;">ubisoft</p>
+              <p>4.99$</p>
+              <p>выпушено в 03/12/2020</p>
+
+
+	        Immortals — это приключенческая игра в жанре экшен от третьего лица . Игрок может настроить пол, голос и внешний вид Феникс. После открытия Зала Богов игрок может использовать Кресло Красоты Афродиты , чтобы вносить дальнейшие изменения в любой момент игры. Действие игры разворачивается на Золотом острове, большом открытом мире , состоящем из семи отдельных регионов, вдохновленных греческой мифологией . Игрока сопровождает Фосфор, птица, которая может определять интересующие его места на карте. Феникс может быстро перемещаться по миру, взбираясь на скалы, катаясь на ездовом животном и летая с помощью крыльев Дедала .  Полный открытый мир доступен с самого начала игры.  По мере того, как игроки исследуют мир, они сталкиваются с разломами, которые телепортируют их в Хранилища Тартара, которые представляют собой серию платформенных испытаний, требующих от игроков использования как боевых, так и передвижных способностей Феникс.  Игроки могут выполнять различные побочные задания и решать дополнительные головоломки. 
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+	        <button type="button" class="btn btn-primary">добавить в карзину</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+			<!-- Modal -->
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title fs-5" id="exampleModalLabel">Call of Duty: Black Ops Cold War</h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	      	<p class="fs-5" style="font-weight: 600;">Activision</p>
+              <p>4.99$</p>
+              <p>выпушено в 03/12/2020</p>
+	        Call of Duty: Black Ops Cold War — компьютерная игра в жанре шутера от первого лица, семнадцатая во франшизе Call of Duty и пятая основная игра в сюжетной подсерии Black Ops. Игра является прямым продолжением Call of Duty: Black Ops. Релиз игры состоялся 13 ноября 2020 на платформах PC, Xbox One, PlayStation 4, а выход на консолях нового поколения PlayStation 5, Xbox Series X запланирован позже.
+            Сюжет Black Ops Cold War разворачивается в начале 1980-х годов, во времена холодной войны между СССР и США. Сюжет игры раскрывается офицером ЦРУ Расселом Адлером, который преследует Персея, предполагаемого советского шпиона, чья заявленная цель — ниспровергнуть Соединённые Штаты и склонить баланс сил в сторону Советского Союза
+            В многопользовательской игре есть новые игровые режимы, более обширные настройки, а также новая динамика и элементы карты.
+            Игра получила положительные отзывы критиков с похвалой за увлекательную и интересную кампанию, зомби и многопользовательский режим, однако игру критиковали за короткую продолжительность кампании, малые объёмы контента в мультиплеере, дизайн карты.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+	        <button type="button" class="btn btn-primary">добавить в карзину</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title fs-5" id="exampleModalLabel">Assassin’s Creed Valhalla </h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	      	<p class="fs-5" style="font-weight: 600;">ubisoft</p>
+              <p>4.99$</p>
+              <p>выпушено в 03/12/2020</p>
+	        Assassin’s Creed Valhalla — это приключенческая игра с открытым миром, построенная вокруг нескольких основных сюжетных арок и множества дополнительных побочных миссий, называемых «Мировые события». Игрок берет на себя роль Эйвора — викинга, который ведёт своих собратьев против англосаксонских королевств. У игрока есть выбор играть за Эйвора как за женщину, так и за мужчину, или позволить игре чередоваться между ними в ключевые моменты истории. Игрок также может изменить причёску, бороду, боевую раскраску, одежду, доспехи и татуировки персонажа. Разнообразие оружия, доступного игроку, было расширено и теперь включает цепы и двуручные мечи. Животное-компаньон игрока — ворон по имени Sýnin (древнескандинавское слово «проницательность»), которого можно использовать для разведки близлежащих территорий, и других частей игрового мира издалека, прежде чем Эйвор вступит в бой. Больше внимания разработчики уделили аспектам скрытности как при перемещении по игровому миру, так и в бою. Эйвор может симулировать смерть, использовать своего ворона, чтобы отвлекать охранников, и может получить доступ к скрытому клинку для мгновенных убийств. Большинство врагов в игре, благодаря определённым комбинациям подходов, тактики и выбора оружия, могут быть убиты с помощью одной атаки, за исключением боссов, которых можно победить другими способами.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+	        <button type="button" class="btn btn-primary">добавить в карзину</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title fs-5" id="exampleModalLabel"> Marvel’s Spider-Man: Miles Morales</h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	      	<p class="fs-5" style="font-weight: 600;">ubisoft</p>
+              <p>4.99$</p>
+              <p>выпушено в 03/12/2020</p>
+	        Marvel’s Spider-Man: Miles Morales (в официальной русской локализации — «MARVEL Человек-Паук: Майлз Моралес») — компьютерная игра в жанре приключенческого экшена, разработанная Insomniac Games в сотрудничестве с Marvel Games и изданная Sony Interactive Entertainment. Основана на комиксах издательства Marvel Comics о Майлзе Моралесе, а также других медиа с участием этого персонажа, в частности анимационном фильме «Человек-паук: Через вселенные» (2018), который способствовал росту его популярности. Игра является спин-оффом Spider-Man (2018) и второй частью одноимённой игровой серии. По сюжету, недавно ставший супергероем Майлз Моралес пытается найти баланс между жизнью городского линчевателя и обычного подростка; новый дом Майлза, Гарлем, оказывается в эпицентре противостояния компании «Roxxon Energy Corporation» и оснащённой передовыми технологиями организации «Подполье» во главе с таинственным Тинкерером.
+            Игра представляет собой приключенческий боевик от третьего лица; игровой процесс построен вокруг перемещения Майлза по городу и использования его боевых способностей. Протагонист может свободно исследовать Нью-Йорк, взаимодействовать с другими персонажами, выполнять сюжетные и открывать новые гаджеты и костюмы. После прохождения побочных заданий игрок получает доступ к дополнительному контенту и различным коллекционным предметам. Во время сражений игрок комбинирует обычные, паутинные и ядовитые атаки с предметами окружающей среды, чтобы вывести из строя многочисленных противников и не получить урона.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+	        <button type="button" class="btn btn-primary">добавить в карзину</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+</body>
+</html>
